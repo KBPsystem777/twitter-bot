@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KBPsystem777/twitter-bot/issues"
   },
-  "homepage": "https://github.com/KBPsystem777/twitter-bot#readme"
+  "homepage": "https://github.com/KBPsystem777/twitter-bot#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
 }
