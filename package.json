@@ -1,0 +1,19 @@
+{
+  "name": "kbpsystem-bot",
+  "version": "1.0.0",
+  "description": "twitter-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBPsystem777/twitter-bot.git"
+  },
+  "author": "Koleen BP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KBPsystem777/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/KBPsystem777/twitter-bot#readme"
+}
