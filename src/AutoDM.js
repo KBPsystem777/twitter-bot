@@ -1,4 +1,4 @@
-const T = require('./Twit');
+const T = require('./Twit.js');
 const my_user_name = require('../config').userName;
 
 const timeOut = 1000 * 60 * 1;
@@ -18,7 +18,7 @@ const SendMessage = user => {
     };
     // the follow stream track if I follow author person too.
     if (screen_name != my_user_name) {
-        console.log(" 🎉🎉🎉🎉 New Follower  🎉🎉🎉🎉🎉 ");
+        console.log(`We have a new follower! Name is ${screen_name}!`);
         setTimeout(() => {
             T.post("direct_messages/new", obj)
                 .catch(err => {
@@ -33,7 +33,7 @@ const SendMessage = user => {
 
 
 const GenerateMessage = name => {
-    return `Hi ${name}! Thanks for being a part of my network!`;
+    return `Hi ${name}! Thanks for being a part of my network! I am Koleen and feel free to send me a DM, anytime ;)`;
 };
 
 module.exports = AutoDM;    
