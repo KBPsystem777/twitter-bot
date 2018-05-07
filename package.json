@@ -1,24 +1,14 @@
 {
-  "name": "kbpsystem-bot",
+  "name": "twitter_bot",
   "version": "1.0.0",
-  "description": "twitter-bot for my Twitter account: @KBPsystem",
+  "description": "Node js twitter bot to send auto direct message",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KBPsystem777/twitter-bot.git"
-  },
-  "author": "Koleen BP",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/KBPsystem777/twitter-bot/issues"
-  },
-  "homepage": "https://github.com/KBPsystem777/twitter-bot#readme",
+  "author": "Youssouf El AZIZI",
+  "license": "ISC",
   "dependencies": {
     "twit": "^2.2.9"
-  },
-  "devDependencies": {}
+  }
 }

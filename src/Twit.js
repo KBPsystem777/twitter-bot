@@ -1,7 +1,5 @@
-const Twit = require('twit');
-const config = require('../config');
+const Twit = require("twit");
+const config = require("../config");
+const T = new Twit(config.twitterApp);
 
-const T = new Twit(config.twitteApp);
-
-module.export = T;
-
+module.exports = T;
