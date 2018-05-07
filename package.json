@@ -17,8 +17,8 @@
     "url": "https://github.com/KBPsystem777/twitter-bot/issues"
   },
   "homepage": "https://github.com/KBPsystem777/twitter-bot#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "twit": "^2.2.9"
-  }
+  },
+  "devDependencies": {}
 }
