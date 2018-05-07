@@ -1,4 +1,4 @@
-const AutoDM = require('./src/AutoDM');
+const AutoDM = require('./src/AutoDM.js');
 
 console.log('App Started!');
 
