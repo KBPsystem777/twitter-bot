@@ -1,3 +1,3 @@
 # twitter-bot
 
-> Searches a specific `query` from Twitter and then likes it.
+### This is a Twitter bot for @KBPsystem auto direct message.
