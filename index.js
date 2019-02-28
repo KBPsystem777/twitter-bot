@@ -16,7 +16,7 @@ const hashTag = {
 //User Stream
 const stream = T.stream('user');
 stream.on('follow', followed);
-stream.on('tweet', tweetEvent)
+
 
 //Activities to execute when someone follows this bot
 
