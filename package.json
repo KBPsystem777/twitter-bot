@@ -20,5 +20,7 @@
   "dependencies": {
     "twit": "^2.2.9"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
