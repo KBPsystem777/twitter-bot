@@ -1,11 +1,11 @@
 {
   "name": "kbpsystem-bot",
   "version": "1.0.0",
-  "description": "twitter-bot for my Twitter account: @KBPsystem",
+  "description": "Twitter bot for @CIBACPartylist.bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
